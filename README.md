@@ -8,9 +8,9 @@ transport the locomotive. If the total weight of the wagons exceeds this value, 
 will be able to leave the station. The train_cars field represents the first carriage in the sequence of carriages a
 the train (it is the wagon attached to the locomotive).
 
-TrainCar este structura care reprezintă un vagon. Fiecare vagon are o greutate asociată care
-este reținută în câmpul weight. Câmpul next reprezintă următorul vagon din secvența de
-vagoane a trenului.
+TrainCar is the structure that represents a train car. Each wagon has an associated weight which
+is retained in the weight field. The next field represents the next wagon in the sequence of
+train cars.
 
 * Open train station function
 
