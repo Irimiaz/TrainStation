@@ -57,7 +57,7 @@ It will work similar to the previous function, only it is looking for the train 
 
 Also, as in the previous function, it will find the train that has the difference between the power of the locomotive and the sum of the weights of the wagons as small as possible, but positive.
 
-*Find heaviest sequence train function
+* Find heaviest sequence train function
 
 It will go through each wagon separately, from a platform, and starting from that wagon it will calculate the sum of the weights of the following cars_no wagons. Finally, it returns the platform number and a pointer to the first car in the sequence found
 
